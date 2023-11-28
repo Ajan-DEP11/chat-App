@@ -3,9 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Web Socket</title>
+    <link rel="stylesheet" href="/index.0d5f8989.css">
+    <script src="/index.34ce65bc.js" defer=""></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/index.34df27b5.css">
+    <script defer="" src="/index.18dbc454.js"></script>
 </head>
-<body>
+<body class="d-flex flex-column vh-100">
+    <header class="d-flex justify-content-between p-2 border-bottom">
+        <div>
+            <h2>Chat App</h2>
+            <h4 class="m-0">Web-Socket Action</h4>
+        </div>
+        <div id="account">
+            <div id="account-detals" class="">
+                <div id="user-name">Name</div>
+                <div id="user-email">Email</div>
+                <div id="btn-sign-out">Sign out</div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div id="output-wrapper">
+            <div id="output" class=""></div>
+        </div>
+        <form action="javascript:void(0)" class="d-flex gap-2 p-2 border-top">
+            <input class="form-control" id="txt-message" type="text" placeholder="Hey!! Write something">
+            <button id="btn-send" class="btn btn-primary">Send</button>
+        </form>
+
+    </main>
     
-<script src="/Chat%20App.59712999.js"></script></body>
+</body>
 </html>
